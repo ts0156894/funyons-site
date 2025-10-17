@@ -1,0 +1,160 @@
+/* Tara Sweeney
+10/16/2025 
+Funyon Project*/
+
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+body {
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.nav-buttons1 {
+    text-decoration: none;
+    background: #49ff21;
+    border: 1px solid #333;
+    padding: 3px;
+    border-radius: 6px;
+    color: #000;
+    display: inline-block;
+    position: fixed;
+    top: 6px;
+    left: 0px;
+    width: 25px;
+}
+.nav-buttons2 {
+    text-decoration: none;
+    background: #49ff21;
+    border: 1px solid #333;
+    padding: 3px;
+    border-radius: 6px;
+    color: #000;
+    display: inline-block;
+    position: fixed;
+    top: 38px;
+    left: 0px;
+    width: 25px;
+}
+.nav-buttons3 {
+    text-decoration: none;
+    background: #49ff21;
+    border: 1px solid #333;
+    padding: 3px;
+    border-radius: 6px;
+    color: #000;
+    display: inline-block;
+    position: fixed;
+    top: 70px;
+    left: 0px;
+    width: 25px;
+}
+h1 {
+    text-decoration: underline;
+    font-style: italic;
+}
+.logo {
+    margin-left: 10%;
+    float: left;
+    margin-right: 2px;
+}
+.headtitle {
+    text-align: center;
+    font-size: large;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 10px;
+    border: 2pt solid;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 50%;
+    background-color: yellow;
+}
+.slogan {
+    display: none;
+    font-style: italic;
+}
+h2 {
+    text-decoration: underline;
+}
+p {
+    text-align: left;
+}
+section {
+    display: inline-block;
+    text-align: center;
+    border: solid 4pt;
+    border-radius: 4px;
+    margin-top: 7px;
+    margin-left: 5%;
+    padding-left: 1px;
+    font-size: x-small;
+    background-color:white;
+}
+.img2 {
+    clear:both;
+    float: left;
+    display: fixed;
+    left: 5%;
+    margin: 0 10px 10px 0;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+footer {
+    font-size: xx-small;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+/* media adjustments from this point on */
+/* -------------------------------------- */
+@media (min-width: 576px) {
+    .headtitle {
+        font-size: larger;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    section {
+        font-size: medium;
+    }
+    .logo {
+        width: 140px;
+    }
+    .nav-buttons1, .nav-buttons2,.nav-buttons3 {
+        width: 40px;
+    }
+    .img2 {
+        width: 150px;
+    }
+}
+
+@media (min-width: 720px) {
+    section {
+        margin-left: 10%;
+    }
+    .nav-buttons1, .nav-buttons2,.nav-buttons3 {
+        width: 60px;
+        padding-left: 3px;
+    }
+    .headtitle {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        width: 55%;
+    }
+    .slogan {
+        display:inline;
+    }
+}
+
+@media (min-width: 992px) {
+    .headtitle {
+        width: 65%;
+    }
+    .nav-buttons1, .nav-buttons2,.nav-buttons3 {
+        width: 75px;
+    }
+}
